@@ -1,5 +1,5 @@
 # 8-bit CPU 
- A custom 8-bit CPU build in verilog - starting from individual logic gates to full datapath and a micro-coded Control Unit, simulated and verified in AMD Xilinx Vivado
+ A custom 8-bit CPU built in verilog - starting from individual logic gates to full datapath and a micro-coded Control Unit, simulated and verified in AMD Xilinx Vivado
 
  ## Modules
 
