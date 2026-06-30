@@ -10,7 +10,7 @@
  | RAM | A synchronous 16*8-bits `RAM` which stores 16 memory elements each of 8-bits(1 byte).It has a reading and writing mode and takes address as input when `switch`= 0 and takes a value as input when `switch`= 1|
  |Program Counter| Sends the address of the program that is to be executed to the RAM. It has a few allowed functions like `jump`,`reset` and of course `auto_increment`.|
  |Instruction Register| Stores the value passed by the RAM in reading mode. The value stored is then passed on to the bus with upper 3 bits sliced to give the op code and the lower remaining bits for the operand on which the operation is to be done|
- |Control Unit| A `FSM` following the `Moore's` model which decides which next state is to be executed after the current state. The state only depends on the input and not the output.
+ |Control Unit| A `FSM` following the `Moore's` model which decides which next state is to be executed after the current state.The control outputs are determined solely by the current FSM state, and state transitions depend on the decoded opcode inputs.
 
 
  ## Instruction Set
