@@ -36,7 +36,7 @@
 ![DataPath Diagram](assets/DataPath.png)
 
 ## States Diagram
-![States Diagram](assets/Sequence_States.png)
+![States Diagram](assets/StatesDiagram.png)
 
 ## Simulation Results
 ### Image:
