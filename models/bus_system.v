@@ -16,7 +16,7 @@ module bus_system(
     
     wire [7:0]alu_out;
     
-    FullModel f1(.m(acc_data_out[3:0]),.n(b_data_out[3:0]),.op(op),.ans(alu_out));
+    FullModel f1(.m(acc_data_out[4:0]),.n(b_data_out[4:0]),.op(op),.ans(alu_out));
 
     assign ALU_out = alu_out;
     assign bus = (alu_drive) ? alu_out : 8'bz;
